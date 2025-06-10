@@ -7,7 +7,7 @@ export default function Footer() {
         <p>2025 © ASClima</p>
         <div className="flex gap-4 mt-2 sm:mt-0">
           <Link to="/politica-privacidad">Política de Privacidad</Link>
-          <a href="#">Aviso Legal</a> {/* Puedes crear este igual más adelante */}
+          <Link to="/aviso-legal">Aviso Legal</Link>
         </div>
       </div>
       <p className="text-center mt-2 text-yellow-400">

@@ -7,6 +7,7 @@ import Instalaciones from "./pages/Instalaciones";
 import Ofertas from "./pages/Ofertas";
 import Contacto from "./pages/Contacto";
 import PoliticaPrivacidad from "./pages/PoliticaPrivacidad";
+import AvisoLegal from "./pages/AvisoLegal";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/ofertas" element={<Ofertas />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
+          <Route path="/aviso-legal" element={<AvisoLegal />} />
         </Routes>
       </Layout>
     </BrowserRouter>
