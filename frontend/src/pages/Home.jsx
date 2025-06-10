@@ -10,7 +10,7 @@ export default function Home() {
         className="w-full h-[60vh] bg-cover bg-center flex items-center justify-center text-center"
         style={{ backgroundImage: `url(${heroImg})` }}
       >
-        <div className="bg-white/80 p-6 rounded-lg shadow max-w-xl">
+        <div className="bg-white/50 p-8 rounded-lg shadow max-w-xl">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Servicio Técnico Aire Acondicionado en Madrid</h1>
           <p className="mt-2 text-blue-700 font-semibold text-lg">OFERTA CARGA DE GAS <span className="text-black">80€</span></p>
           <a href="tel:624417886" className="mt-4 inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition">
