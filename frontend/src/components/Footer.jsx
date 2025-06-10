@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="bg-black text-white text-sm p-4 mt-10">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
         <p>2025 © ASClima</p>
         <div className="flex gap-4 mt-2 sm:mt-0">
-          <a href="#">Política de Privacidad</a>
-          <a href="#">Aviso Legal</a>
+          <Link to="/politica-privacidad">Política de Privacidad</Link>
+          <a href="#">Aviso Legal</a> {/* Puedes crear este igual más adelante */}
         </div>
       </div>
       <p className="text-center mt-2 text-yellow-400">

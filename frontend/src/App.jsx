@@ -6,6 +6,7 @@ import Servicios from "./pages/Servicios";
 import Instalaciones from "./pages/Instalaciones";
 import Ofertas from "./pages/Ofertas";
 import Contacto from "./pages/Contacto";
+import PoliticaPrivacidad from "./pages/PoliticaPrivacidad";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/instalaciones" element={<Instalaciones />} />
           <Route path="/ofertas" element={<Ofertas />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
         </Routes>
       </Layout>
     </BrowserRouter>
