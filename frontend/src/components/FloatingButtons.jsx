@@ -10,7 +10,7 @@ export default function FloatingButtons() {
     <>
       {/* Botón de llamada */}
       <a
-        href="tel:604277343"
+        href="tel:624417886"
         className="fixed bottom-28 right-4 bg-blue-500 p-3 rounded-full shadow-lg z-50"
       >
         <FaPhoneAlt className="text-white" />
@@ -18,7 +18,7 @@ export default function FloatingButtons() {
 
       {/* Botón de WhatsApp */}
       <a
-        href="https://wa.me/34604277343"
+        href="https://wa.me/34624417886"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-16 right-4 bg-green-500 p-3 rounded-full shadow-lg z-50"
