@@ -81,7 +81,7 @@ export default function Contacto() {
             <div>
               <p className="font-semibold">Teléfono</p>
               <a href="tel:624417886" className="text-sm text-blue-700">
-                604 27 73 43
+                624 417 886
               </a>
             </div>
           </div>

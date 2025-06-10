@@ -9,6 +9,7 @@ import Contacto from "./pages/Contacto";
 import PoliticaPrivacidad from "./pages/PoliticaPrivacidad";
 import AvisoLegal from "./pages/AvisoLegal";
 
+
 export default function App() {
   return (
     <BrowserRouter>
