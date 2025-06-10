@@ -13,8 +13,8 @@ export default function Home() {
         <div className="bg-white/80 p-6 rounded-lg shadow max-w-xl">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Servicio Técnico Aire Acondicionado en Madrid</h1>
           <p className="mt-2 text-blue-700 font-semibold text-lg">OFERTA CARGA DE GAS <span className="text-black">80€</span></p>
-          <a href="tel:604277343" className="mt-4 inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition">
-            📞 604 27 73 43
+          <a href="tel:624417886" className="mt-4 inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition">
+            📞 624 417 886
           </a>
         </div>
       </section>
